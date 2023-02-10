@@ -46,7 +46,7 @@ if st.button("CO2 EMISSION PER CAPITA"):
       st.success('Moderate CO2 Emission Consider reducing your CO2 Production by shifting to a decarbonization pathway')
     else:
       st.success('Your predicted CO2 Emission per capita is {}'.format((result).round(2)))
-      st.success('Below 25GT COe Continue reducing your CO2 Production by shifting to a decarbonization pathway')import streamlit as st
+      st.success('Below 25GT COe Continue reducing your CO2 Production by shifting to a decarbonization pathway')
 
 
 st.title('CO2 PER CAPITA Prediction ML App')
