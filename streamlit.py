@@ -10,8 +10,6 @@ model.load_model('xgb_model.json')
 @st.cache
 
 
-
-
 st.title('CO2 emission per capita predictor app')
 st.markdown('A model that can predict the level of co2 emission per capita.')
 st.header('CO2 Emission Variables')
