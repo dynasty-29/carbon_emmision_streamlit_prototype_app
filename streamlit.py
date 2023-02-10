@@ -30,7 +30,7 @@ import streamlit as st
 
 # load saved model
 with open('carbonemissionmodel.pkl' , 'rb') as f:
-    classifier = pickle.load(f)
+    carbonemissionmodel = pickle.load(f)
 
 
     
