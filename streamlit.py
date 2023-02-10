@@ -9,7 +9,7 @@ model.load_model('xgb_model.json')
 #Caching the model for faster loading
 @st.cache
 
-import streamlit as st
+
 
 
 st.title('CO2 emission per capita predictor app')
