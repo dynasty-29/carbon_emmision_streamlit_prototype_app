@@ -11,15 +11,15 @@ col1, col2 = st.columns(2)
   
 # following lines create boxes in which user can enter data required to make prediction 
 with col1:
-  Total = st.selectbox('Total', step = 1)
-  Coal = st.number_input('Coal', step = 1)
-  Gas = st.number_input('Gas', step = 1)
+  Total = st.selectbox('Total')
+  Coal = st.number_input('Coal')
+  Gas = st.number_input('Gas')
     
 
 with col2:
-  Oil = st.number_input('Oil', step = 1)
-  Cement = st.number_input('Cement', step = 1)
-  Flaring = st.number_input('Flaring', step = 1)
+  Oil = st.number_input('Oil')
+  Cement = st.number_input('Cement')
+  Flaring = st.number_input('Flaring')
     
 
 result =""
