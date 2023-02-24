@@ -55,7 +55,7 @@ if st.button("CO2 EMISSION PER CAPITA"):
       st.success('Moderate CO2 Emission Consider reducing your CO2 Production by shifting to a decarbonization pathway')
     else:
       st.success('Your predicted CO2 Emission per capita is {}'.format((result).round(2)))
-      st.success('Below 25GT COe Continue reducing your CO2 Production by shifting to a decarbonization pathway')
+      st.success('Below 25GT CO2 Continue reducing your CO2 Production by shifting to a decarbonization pathway')
 
 
 
