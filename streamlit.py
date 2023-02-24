@@ -9,14 +9,14 @@ model.load_model('xgb_model.json')
 #Caching the model for faster loading
 @st.cache
 
-#st.title('CO2 emission per capita predictor app')
-#st.markdown('A model that can predict the level of co2 emission per capita.')
-#st.header('CO2 Emission Variables')
+st.title('CO2 emission per capita predictor app')
+st.markdown('A model that can predict the level of co2 emission per capita.')
+st.header('CO2 Emission Variables')
 col1, col2 = st.columns(2)
 
 
 # display the front end aspect
-# st.markdown(html_temp, unsafe_allow_html = True) 
+st.markdown(html_temp, unsafe_allow_html = True) 
   
 # following lines create boxes in which user can enter data required to make prediction 
 with col1:
